@@ -1,0 +1,8 @@
+<!-- insert_bottom "div#main-sidebar" -->
+
+<%# Add sidebar's items for experience %>
+<% if can? :index, Spree::Experience %>
+<ul class="nav nav-sidebar">
+  <%= tab :experiences, label: Spree.t(:experiences), match_path: '/experiences', icon: 'home' %>
+</ul>
+<% end %>

@@ -1,0 +1,83 @@
+es:
+  activerecord:
+    attributes:
+      spree/experience:
+        name: Nombre
+        tax_id: TAX ID
+        url: URL
+        address1: Dirección
+        address2: Dirección (continuación)
+        city: Ciudad
+        country: País
+        email: Email
+        state: Estado
+        active: Activo
+        url: URL
+        zipcode: Código Postal(ZipCode)
+        experience_info: Información de proveedor
+        experience_signup: Registro de proveedor
+        experiences: Proveedores
+    errors:
+      models:
+        spree/experience:
+          attributes:
+            url:
+              invalid: es inválido. Por favor asegúrece que 'http://' esté incluido
+              not_responding: 'es inválido, no responde o ha redireccionado a otra url'
+  experience_drop_ship_settings: Experience Drop Ship Configuración
+  must_be_logged_in: 'Debe Estar Autenticado'
+  signup: Registro
+  signup_to_become_a_experience: 'Autentíquese para ser un Proveedor'
+  spree:
+    admin:
+      experience_drop_ship_settings:
+        update:
+          success: Configuración Experience Drop ship actualizada correctamente
+      experiences:
+        edit:
+          back_to_experiences: Regresar a los proveedores 
+        new:
+          new_experience: Nuevo Proveedor
+        form:
+          experience_details: Detalles del Proveedor
+          experience_address: Dirección del Proveedor
+    back_to_experiences: Regresar a los proveedores
+    business: Negocio
+    company_info: Informacion de la compañia
+    contact_address: Dirección de contacto
+    experience_drop_ship: Experience Drop Ship
+    editing_experience: Editar proveedor
+    send_experience_email: Enviar correo al proveedor
+    individual: Individual
+    listing_experiences: Lista de proveedores
+    manage: Gestionar
+    name: Nombre
+    or: ó
+    experiences: Proveedores
+    listing_shipments: 'Lista de envíos'
+    save: Guardar
+    search: Buscar
+    experience: Proveedor
+    experience_information: Información del proveedor
+    shared:
+      unauthorized:
+        explained: Usted no está autorizado a acceder a esta página.
+        unauthorized: No autorizado
+    experience_mailer:
+      welcome:
+        hello: "Hola %{name},"
+        check_your_status: Puede revisar el estado de su pedido por
+        logging_into_your_account: Autentíquese.
+        once_your_request_is_approved: Una vez que su pedido sea aprobado podrá gestionar su inventario.
+        subject: 'Gracias por autenticarse. Por favor verifique la información.'
+        thank_you_again: "Gracias nuevamente por su negocio, <b>%{name}</b>"
+        thank_you_for_signing_up: Gracias por autenticarse para ser un proveedor.
+    experiences:
+      already_signed_up: "Ya está autenticado para convertirse en un proveedor."
+      create:
+        success: Gracias por autenticarse!
+    experience_registration:
+      already_signed_up: "Ya inicio sesión como proveedor."
+      create:
+        invalid_password: Clave incorrecta por favor inicie sesion.
+        success: Gracias por registrarse!

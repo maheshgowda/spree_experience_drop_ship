@@ -1,0 +1,57 @@
+en:
+  activerecord:
+    attributes:
+      spree/experience:
+        name: Name
+        tax_id: TAX ID
+        url: URL
+    errors:
+      models:
+        spree/experience:
+          attributes:
+            url:
+              invalid: is invalid. Please be sure to include include 'http://'
+              not_responding: 'is invalid, not responding or redirecting to another location'
+  spree:
+    admin:
+      experience_drop_ship_settings:
+        update:
+          success:Experience Experience Drop ship settings successfully updated.
+    business: Business
+    cancel: Cancel
+    company_info: Company Info
+    contact_address: Contact Address
+    experience_drop_ship: Experience Drop Ship
+    experience_drop_ship_settings: Experience Drop Ship Settings
+    editing_experience: Editing Experience
+    individual: Individual
+    listing_experiences: Listing Experience
+    manage: Manage
+    must_be_logged_in: 'Must Be Logged In'
+    name: Name
+    new_experience: New Experience
+    shared:
+      unauthorized:
+        explained: You are not authorized to access this page.
+        unauthorized: Unauthorized
+    signup: Sign Up
+    signup_to_become_a_experience: 'Sign Up To Become A Experience'
+    experience: Experience
+    experience_details: Experience Details
+    experience_info: Experience Info
+    experience_information: Experience Information
+    experience_mailer:
+      welcome:
+        hello: "Hello %{name},"
+        logging_into_your_account: logging into your account.
+        manage_your_account: You may now manage your profile and inventory by
+        subject: 'Thank you for signing up.  Please verify your information.'
+        thank_you_again: "Thank you again for your business, <b>%{name}</b>"
+        thank_you_for_signing_up: Thank you for signing up to be a experience drop ship experience.
+    experience_registration:
+      already_signed_up: "You've already signed up to become a experience."
+      create:
+        invalid_password: Invalid password please sign in or sign up.
+        success: Thank you for signing up!
+    experience_signup: Experience Sign Up
+    experiences: Experiences
